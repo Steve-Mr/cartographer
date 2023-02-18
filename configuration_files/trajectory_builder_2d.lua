@@ -25,13 +25,13 @@ TRAJECTORY_BUILDER_2D = {
   adaptive_voxel_filter = {
     max_length = 0.5,
     min_num_points = 200,
-    max_range = 50.,
+    max_range = 20.,
   },
 
   loop_closure_adaptive_voxel_filter = {
     max_length = 0.9,
     min_num_points = 100,
-    max_range = 50.,
+    max_range = 20.,
   },
 
   use_online_correlative_scan_matching = false,
@@ -85,7 +85,7 @@ TRAJECTORY_BUILDER_2D = {
   },
 
   submaps = {
-    num_range_data = 90,
+    num_range_data = 30,
     grid_options_2d = {
       grid_type = "PROBABILITY_GRID",
       resolution = 0.05,
